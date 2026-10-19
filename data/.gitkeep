@@ -1,0 +1,2 @@
+# This file exists to track the data/ directory in git.
+# The actual runtime .txt log files are excluded via .gitignore.

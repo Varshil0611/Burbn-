@@ -1,0 +1,67 @@
+# ============================================================
+# Burbn — Java Social Media Simulator
+# ============================================================
+
+# --- Compiled Output ---
+*.class
+bin/
+target/
+build/
+out/
+
+# --- Build Tools ---
+*.jar
+*.war
+*.ear
+*.nar
+
+# --- IDE: IntelliJ IDEA ---
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# --- IDE: Eclipse ---
+.settings/
+.classpath
+.project
+.metadata/
+
+# --- IDE: VS Code ---
+.vscode/
+*.code-workspace
+
+# --- IDE: NetBeans ---
+nbproject/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# --- Operating System Files ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+ehthumbs.db
+*.lnk
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Local Data Files (runtime-generated, not source) ---
+data/*.txt
+
+# --- Temp / Debug ---
+*.tmp
+*.bak
+*.swp
+*.orig
+
+# --- Maven / Gradle (if added later) ---
+.mvn/
+.gradle/
+gradlew
+gradlew.bat
+mvnw
+mvnw.cmd

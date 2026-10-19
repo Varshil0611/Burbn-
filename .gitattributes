@@ -1,0 +1,29 @@
+# Auto-detect text files and normalize line endings to LF on commit
+* text=auto
+
+# Java source files — always LF
+*.java text eol=lf
+
+# SQL files — always LF
+*.sql text eol=lf
+
+# Shell / scripts
+*.bat text eol=crlf
+*.sh text eol=lf
+
+# Config / docs
+*.md text eol=lf
+*.txt text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+
+# Binary files — never modify
+*.class binary
+*.jar binary
+*.pdf binary
+*.jpg binary
+*.png binary
+*.gif binary
+*.art binary
+*.xls binary
+*.xlsx binary
